@@ -77,7 +77,7 @@ export default function AadhaarForm() {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://localhost:3000/AadharValidation/Validate", {
+      const res = await fetch("https://assignment-backend-production-478a.up.railway.app/AadharValidation/Validate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
