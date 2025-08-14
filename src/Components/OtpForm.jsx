@@ -8,7 +8,7 @@ export default function OtpForm({ aadhaarData , otp_G , onSuccess }) {
     const handleOtpSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post("http://localhost:3000/AadharValidation/otpval", {
+            const res = await axios.post("https://assignment-backend-production-478a.up.railway.app/AadharValidation/otpval", {
                 aadhaar: aadhaarData?.aadharNumber,
                 otp,
             });
