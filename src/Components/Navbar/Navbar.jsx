@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import NavItem from "./NavItem";
-import DropdownMenu from "./DropdownMenu";
+import DropDownMenu from "./DropDownMenu";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
