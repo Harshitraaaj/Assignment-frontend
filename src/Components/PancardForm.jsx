@@ -121,7 +121,7 @@ export default function PanForm() {
     if (!validateForm()) return;
 
     try {
-      const res = await axios.post("http://localhost:3000/PanValidation/Validate", {
+      const res = await axios.post("https://assignment-backend-production-478a.up.railway.app/PanValidation/Validate", {
         panNumber: formData.pan,
         organisation: formData.organisation,
         panHolderName: formData.panname,
