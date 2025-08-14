@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
-export default function DropdownMenu({ label, items }) {
+export default function DropDownMenu({ label, items }) {
   const [open, setOpen] = useState(false);
 
   return (
