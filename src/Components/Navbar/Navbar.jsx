@@ -66,7 +66,7 @@ export default function Navbar() {
       <ul className="hidden lg:flex gap-8 ">
         {navItems.map((item, idx) =>
           item.dropdown ? (
-            <DropdownMenu key={idx} label={item.label} items={item.dropdown} />
+            <DropDownMenu key={idx} label={item.label} items={item.dropdown} />
           ) : (
             <NavItem key={idx} label={item.label} link={item.link} />
           )
